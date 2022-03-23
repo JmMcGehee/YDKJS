@@ -36,5 +36,42 @@
 // }
 
 // foo();
-// console.log(a) // only works because 'a' automatically becomes a global variable
+// // console.log(a) // only works because 'a' automatically becomes a global variable
 // // ALWAYS FORMALLY DECLARE YOUR VARIABLES. 
+
+// using 'let' allows you to limit a varible's scope to a single block. 
+
+// function foo() {
+//     var a = 1
+
+//     if (a >= 1) {
+//         let b = 2
+
+//         while (b < 5) {
+//             let c = b * 2
+//             b++
+
+//             console.log(a + c);
+//         }
+//     }
+// }
+
+// foo();
+
+// // Q. 'switch' statements?
+
+// // ===== TERNARY OPERATOR +++++
+
+// var a = 40
+
+// var b = (a > 41) ? "hello" : "world"
+
+// console.log(b);
+
+// // ''use strict"; 
+
+// // Functions as values
+
+// // Q. Closure?
+
+// ======= PROTOTYPES ========
